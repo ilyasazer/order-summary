@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-image: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-color: rgb(236, 232, 232);
+        display: flex;
+        justify-content: center;
+        width: 1300px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .img1 {
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .img2 {
+        margin-top: 30px;
+        margin-right: 220px;
+      }
+      section {
+        text-align: center;
+        width: 400px;
+        height: 600px;
+        border-radius: 20px;
+        background-color: aliceblue;
+        margin-top: 40px;
+      }
+      h1 {
+        /* font-size: 40px; */
+        font-weight: 900;
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+      }
+      .container {
+        background-color: rgb(242, 243, 227);
+        padding-bottom: 10px;
+        border-radius: 13px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+        position: relative;
+      }
+      .p {
+        font-size: 16px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: grey;
+        margin: 0 50px 0 50px;
+      }
+      h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: -55px;
+        margin-right: 30px;
+        color: black;
+      }
+      .pay {
+        color: grey;
+        margin-top: -6px;
+        margin-right: 50px;
+      }
+      .change {
+        color: rgb(51, 0, 255);
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        transition: all 1s;
+      }
+      .change:hover {
+        text-decoration: none;
+        color: rgb(128, 119, 164);
+        cursor: pointer;
+      }
+      .ptp {
+        background-color: rgb(48, 36, 213);
+        padding: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 13px;
+        color: rgb(216, 222, 228);
+        font-family: "Oswald", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        box-shadow: 2px 19px 13px wheat;
+        transition: all 1s;
+      }
+      .ptp:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      .co {
+        color: rgb(104, 88, 171);
+        font-weight: 600;
+        font-family: "Red Hat Display", sans-serif;
+        margin-top: 30px;
+        transition: all 0.5s;
+      }
+      .co:hover {
+        cursor: pointer;
+        color: rgb(61, 13, 255);
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img class="img1" src="images/illustration-hero.svg" alt="" />
+
+      <h1>Order Summary</h1>
+
+      <p class="p">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+      <div class="container">
+        <img class="img2" src="images/icon-music.svg" alt="" />
+        <h2>Annual Plan</h2>
+        <p class="pay">$59.99/year</p>
+
+        <a class="change" href=""> Change</a>
+      </div>
+
+      <p class="ptp">Proceed to Payment</p>
+      <p class="co">Cancel Order</p>
+    </section>
+
+    
+    </div>
+  </body>
+</html>
